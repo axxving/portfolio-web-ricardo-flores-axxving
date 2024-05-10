@@ -1,0 +1,24 @@
+:root {
+    --morado: #382b4d;
+    --blanco: #fff;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: lightslategray !important;
+}
+
+/*Header*/
+.header {
+    padding: 13px;
+}
+
+.nav-link {
+    font-weight: bolder !important;
+}
