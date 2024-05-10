@@ -17,8 +17,34 @@ body {
 /*Header*/
 .header {
     padding: 13px;
+    position: fixed;
+    width: 100%;
 }
 
 .nav-link {
     font-weight: bolder !important;
+}
+
+/*Hero*/
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+    font-weight: bolder;
+}
+
+.button-hero {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mr-2 {
+    margin-right: 10px;
+    margin-bottom: 4px;
 }
